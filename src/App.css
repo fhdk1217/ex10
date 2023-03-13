@@ -1,38 +1,91 @@
 .App {
-  text-align: center;
+    width: 80%;
+    margin: 0px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer {
+    border-top: 3px solid gray;
+    margin: 100px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer h3 {
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu {
+    margin: 20px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-right: 30px;
+    color: gray;
+}
+
+.menu a:hover {
+    color: blueviolet;
+}
+
+.login {
+    width: 20%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+input {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    font-family: 'Gugi';
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+button {
+    font-family: 'Gugi';
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    padding: 0px 20px;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.user {
+    overflow: hidden;
+    border-bottom: 1ps dotted gray;
+}
+
+.photo {
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+}
+
+.info {
+    width: 70%;
+    float: left;
 }
